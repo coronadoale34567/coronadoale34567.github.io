@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Ferreteria el constructor</title>
+<style type="text/css">
+body {
+	background-color: #C8E2FD;
+}
+<s<p>Esta página ha sido visitada: 
+        
+        <i class="fas fa-eye icono"></i>
+        <span class="contador" id="contador">0</span> veces
+    </p>
+
+    <script>
+        // Obtener el valor actual del contador desde localStorage
+        let contador = localStorage.getItem('contadorVisitas');
+
+        // Si no hay valor, inicializamos el contador en 0
+        if (contador === null) {
+            contador = 0;
+        }
+
+        // Incrementar el contador por cada visita
+        contador++;
+
+        // Guardar el contador actualizado en localStorage
+        localStorage.setItem('contadorVisitas', contador);
+
+        // Mostrar el contador en el HTML
+        document.getElementById('contador').textContent = contador;
+    </script>
+</style>
+</head>
+
+<body>
+<h1>Menú
+</h1>
+<p><a href="file:///C:/Users/Aleco/Desktop/coronado/paginas/contactanos.html" target="new">Contactanos</a></p>
+<p><a href="file:///C:/Users/Aleco/Desktop/coronado/paginas/index.html" target="_top">Inicio</a></p>
+<p><a href="file:///C:/Users/Aleco/Desktop/coronado/paginas/electrodomesticos.html" target="mainFrame">Electrodomésticos</a></p>
+<p><a href="file:///C:/Users/Aleco/Desktop/coronado/paginas/automotriz.html" target="mainFrame">Automotriz</a></p>
+<p><a href="file:///C:/Users/Aleco/Desktop/coronado/paginas/herramientas.html" target="mainFrame">Herramientas</a></p>
+<p><a href="file:///C:/Users/Aleco/Desktop/coronado/paginas/jardineria.html" target="mainFrame">Jardínería</a></p>
+<p><a href="file:///C:/Users/Aleco/Desktop/coronado/paginas/pinturas.html" target="mainFrame">Pinturas</a></p>
+<p><a href="file:///C:/Users/Aleco/Desktop/coronado/paginas/plomeria.html" target="mainFrame">Plomería</a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</body>
+</html>

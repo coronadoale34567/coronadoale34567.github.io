@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<s<p>Esta página ha sido visitada: 
+        
+        <i class="fas fa-eye icono"></i>
+        <span class="contador" id="contador">0</span> veces
+    </p>
+
+    <script>
+        // Obtener el valor actual del contador desde localStorage
+        let contador = localStorage.getItem('contadorVisitas');
+
+        // Si no hay valor, inicializamos el contador en 0
+        if (contador === null) {
+            contador = 0;
+        }
+
+        // Incrementar el contador por cada visita
+        contador++;
+
+        // Guardar el contador actualizado en localStorage
+        localStorage.setItem('contadorVisitas', contador);
+
+        // Mostrar el contador en el HTML
+        document.getElementById('contador').textContent = contador;
+    </script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+<style type="text/css">
+body {
+	background-image: url(../images/fdddd.jpg);
+}
+</style>
+</head>
+
+<body>
+<blockquote>
+  <blockquote>
+    <blockquote>
+      <blockquote>
+        <blockquote>
+          <blockquote>
+            <blockquote>
+              <blockquote>
+                <blockquote>
+                  <blockquote>
+                    <blockquote>
+                      <blockquote>
+                        <blockquote>
+                          <p><img src="../images/logooo.jpg" width="200" height="180" /></p>
+                        </blockquote>
+                      </blockquote>
+                    </blockquote>
+                  </blockquote>
+                </blockquote>
+              </blockquote>
+            </blockquote>
+          </blockquote>
+        </blockquote>
+      </blockquote>
+    </blockquote>
+  </blockquote>
+</blockquote>
+</body>
+</html>
